@@ -69,7 +69,7 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm Laísa. I'm a web development student at Trybe. I always liked being a logical person and I believe that led me to start studying programming in June 2022. I am very happy to have chosen this profession because in a short time, with a lot of willpower and discipline, I am already observing my evolution and I feel more and more prepared for the job market. You should hire me!",
+    bio: "Hello! My name is Laísa and I'm a student of web development at Trybe. After meet someone from the same area, I started to be interested in programming languages ​​and logic, point that, in June 2022, I decided to take my studies to a more serious degree, enrolling in Trybe. I am very happy for having chosen this profession, because in a short time, with a lot of willpower and discipline, I'm already developing projects front-end using React and methodologies agile like Scrum and Kanban.",
     skills:
         {
             proficientWith: ['javascript', 'react', 'git', 'github', 'redux', 'html5', 'css3', 'soft skills'],
@@ -99,8 +99,8 @@ export const info = {
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "TrybeWallet",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            live: "laisario.github.io/TrybeWallet/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/laisario/TrybeWallet", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {

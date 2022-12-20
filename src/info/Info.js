@@ -23,115 +23,106 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Full Stack Developer",
+    firstName: "Laísa",
+    lastName: "Rio",
+    initials: "lr", // the example uses first and last, but feel free to use three or more if you like.
+    position: "a Front End Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
-            emoji: '☕',
-            text: 'fueled by coffee'
+            emoji: '🐶',
+            text: 'Mom of three'
         },
         {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'Based in Brazil'
         },
         {
             emoji: "💼",
-            text: "Systems Engineer at Google"
+            text: "Web Development Student at Trybe"
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "laisa.rioverde@gmail.com"
         }
     ],
     socials: [
         {
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-        {
-            link: "https://instagram.com",
+            link: "https://www.instagram.com/laisa_maral/",
             icon: 'fa fa-instagram',
             label: 'instagram'
         },
         {
-            link: "https://github.com",
+            link: "https://github.com/laisario",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
+            link: "https://www.linkedin.com/in/laisa-rio/",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
-        {
-            link: "https://twitter.com",
-            icon: "fa fa-twitter",
-            label: 'twitter'
-        }
+       
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Laísa. I'm a web development student at Trybe. I always liked being a logical person and I believe that led me to start studying programming in June 2021. I am very happy to have chosen this profession because in a short time, with a lot of willpower and discipline, I am already observing my evolution and I feel more and more prepared for the job market. You should hire me!",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['javascript', 'react', 'git', 'github', 'redux', 'html5', 'css3', 'soft skills'],
+            exposedTo: ['nodejs', 'figma', 'kanban', 'scrum']
         }
     ,
     hobbies: [
         {
-            label: 'reading',
-            emoji: '📖'
+            label: 'write with ‼️‼️',
+            emoji: '💻'
         },
         {
-            label: 'theater',
-            emoji: '🎭'
+            label: 'play and walk with my dogs',
+            emoji: '🐕‍🦺'
         },
         {
-            label: 'movies',
+            label: 'documentaries and hunger games 🏹',
             emoji: '🎥'
         },
         {
-            label: 'cooking',
-            emoji: '🌶'
+            label: 'seek new experiences',
+            emoji: '🔎'
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
+            title: "TrybeTunes",
             live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
-            title: "Project 2",
+            title: "Tryunfo",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
             image: mock2
         },
         {
-            title: "Project 3",
+            title: "Front-end Online Store",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
             image: mock3
         },
         {
-            title: "Project 4",
+            title: "Pixels Art",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
             image: mock4
         },
         {
-            title: "Project 5",
+            title: "Solar System",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
             image: mock5

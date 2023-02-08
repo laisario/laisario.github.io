@@ -105,7 +105,7 @@ export const info = {
         },
         {
             title: "Trybetunes",
-            live: "laisario.github.io/trybetunes/",
+            live: "https://laisario.github.io/trybetunes/",
             source: "https://github.com/laisario/trybetunes",
             image: mock2
         },

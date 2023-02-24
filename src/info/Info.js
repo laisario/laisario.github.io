@@ -72,7 +72,7 @@ export const info = {
     bio: "Hello! My name is Laísa and I'm a student of web development at Trybe. After meet someone from the same area, I started to be interested in programming languages ​​and logic, point that, in June 2022, I decided to take my studies to a more serious degree, enrolling in Trybe. I am very happy for having chosen this profession, because in a short time, with a lot of willpower and discipline, I'm already developing projects front-end using React and methodologies agile like Scrum and Kanban.",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'redux', 'html5', 'css3', 'soft skills'],
+            proficientWith: ['javascript', 'react', 'git', 'github', 'redux', 'html5', 'css3', 'soft skills', 'docker', 'mySQL'],
             exposedTo: ['nodejs', 'figma', 'kanban', 'scrum']
         }
     ,

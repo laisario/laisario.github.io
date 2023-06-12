@@ -26,22 +26,22 @@ export const info = {
     firstName: "Laísa",
     lastName: "Rio",
     initials: "lr", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Front End Developer",
+    position: "uma desenvolvedora Front-end",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
             emoji: '🐶',
-            text: 'Mom of three'
+            text: 'Mãe de quatro pets'
         },
         {
             emoji: '🌎',
-            text: 'Based in Brazil'
+            text: 'Barra Mansa - Rio de Janeiro - Brasil'
         },
         {
             emoji: "💼",
-            text: "Web Development Student at Trybe"
+            text: "Summer de instrução na Trybe"
         },
         {
             emoji: "📧",
@@ -69,29 +69,28 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! My name is Laísa and I'm a student of web development at Trybe. After meet someone from the same area, I started to be interested in programming languages ​​and logic, point that, in June 2022, I decided to take my studies to a more serious degree, enrolling in Trybe. I am very happy for having chosen this profession, because in a short time, with a lot of willpower and discipline, I'm already developing projects front-end using React and methodologies agile like Scrum and Kanban.",
+    bio: "Olá! Meu nome é Laísa, tenho 20 anos e sou uma desenvolvedora front-end que está em busca de se tornar uma desenvolvedora full-stack. Após concluir o ensino médio, fui fisgada pelo fascinante mundo da lógica de programação e fiquei intrigada a entender como os computadores executam instruções em diversas linguagens. Esse interesse rapidamente se transformou em uma verdadeira paixão e me impulsionou a me profissionalizar no desenvolvimento web. Seja muito bem-vindo ao meu portfolio!",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'redux', 'html5', 'css3', 'soft skills', 'docker', 'mySQL'],
-            exposedTo: ['nodejs', 'figma', 'kanban', 'scrum']
+            proficientWith: ['javascript', 'react', 'node.js', 'typescript', 'html5', 'css3', 'git', 'docker', 'mySQL', 'poo', 'scrumban', 'web design responsivo']
         }
     ,
     hobbies: [
         {
-            label: 'write with ‼️‼️',
+            label: 'escrever com ‼️‼️',
             emoji: '💻'
         },
         {
-            label: 'play and walk with my dogs',
+            label: 'brincar e passear com meus cachorros',
             emoji: '🐕‍🦺'
         },
         {
-            label: 'documentaries and hunger games 🏹',
-            emoji: '🎥'
+            label: 'tentar ajudar animais que precisam',
+            emoji: '🐱'
         },
         {
-            label: 'seek new experiences',
-            emoji: '🔎'
+            label: 'explorar novos lugares de quadriciclo com meu namorado',
+            emoji: '🏍️'
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P

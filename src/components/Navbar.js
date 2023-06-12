@@ -7,12 +7,12 @@ import {info} from "../info/Info";
 
 const links = [
     {
-        name: 'Home',
+        name: 'inicio',
         to: '/',
         active: 'home'
     },
     {
-        name: 'About Me',
+        name: 'sobre mim',
         to: '/about',
         active: 'about'
     },
@@ -23,7 +23,7 @@ const links = [
         active: 'home'
     },
     {
-        name: 'Portfolio',
+        name: 'projetos',
         to: '/portfolio',
         active: 'portfolio'
     }

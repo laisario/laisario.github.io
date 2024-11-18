@@ -3,7 +3,6 @@ import mock1 from '../img/mock1.png';
 import mock2 from '../img/mock2.png';
 import mock3 from '../img/mock3.png';
 import mock4 from "../img/mock4.png";
-import eu from '../img/eu.png'
 
 // import mock5 from "../img/mock5.png"
 
@@ -28,7 +27,7 @@ export const info = {
   lastName: 'Rio',
   initials: 'lr', // the example uses first and last, but feel free to use three or more if you like.
   position: 'uma desenvolvedora FullStack',
-  selfPortrait: eu, // don't change this unless you want to name your self-portrait in the "img" folder something else!
+  selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
   gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
   baseColor: colors[0],
   miniBio: [
@@ -66,7 +65,7 @@ export const info = {
     // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
     // Just change the links so that they lead to your social profiles.
   ],
-  bio: 'Olá leitor, sou Laísa, uma desenvolvedora full-stack. Tenho trabalhado como freelancer em empresas da minha região há mais de um ano, agora estou a procura de um emprego corporativo pra aprimorar minhas habilidades e tabalhar em equipe.',
+  bio: 'Olá leitor! Sou Laísa, desenvolvedora full-stack com mais de um ano de experiência como freelancer, atuando em projetos para empresas da minha região. Já trabalhei em sistemas de automação, landing pages, gerenciamento de calibrações e instrumentos metrológicos, sempre buscando entregar resultados eficientes. Estou em busca de uma oportunidade em um ambiente corporativo para continuar aprimorando minhas habilidades e colaborar em novos projetos revolucionários!!!',
   skills: {
     proficientWith: [
       'javascript',

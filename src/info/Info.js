@@ -2,7 +2,9 @@ import self from '../img/self.png';
 import mock1 from '../img/mock1.png';
 import mock2 from '../img/mock2.png';
 import mock3 from '../img/mock3.png';
-// import mock4 from "../img/mock4.png"
+import mock4 from "../img/mock4.png";
+import eu from '../img/eu.png'
+
 // import mock5 from "../img/mock5.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
@@ -26,22 +28,18 @@ export const info = {
   lastName: 'Rio',
   initials: 'lr', // the example uses first and last, but feel free to use three or more if you like.
   position: 'uma desenvolvedora FullStack',
-  selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
+  selfPortrait: eu, // don't change this unless you want to name your self-portrait in the "img" folder something else!
   gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
   baseColor: colors[0],
   miniBio: [
     // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
     {
       emoji: '🐶',
-      text: 'Mãe de quatro pets',
+      text: 'Amo cachorros especialmente  meus 4',
     },
     {
       emoji: '🌎',
       text: 'Barra Mansa - Rio de Janeiro - Brasil',
-    },
-    {
-      emoji: '💼',
-      text: 'Freelance',
     },
     {
       emoji: '📧',
@@ -68,7 +66,7 @@ export const info = {
     // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
     // Just change the links so that they lead to your social profiles.
   ],
-  bio: 'Olá, sou Laísa, uma desenvolvedora full-stack de 20 anos com ampla experiência em tecnologias front-end e back-end, incluindo React, Redux, HTML, CSS, Jest, TypeScript, Material-UI e Django. Minha jornada profissional me levou a colaborar como instrutora na Trybe, onde ajudei alunos a dominar essas tecnologias essenciais. Além disso, contribuí para o desenvolvimento de um sistema de gestão de instrumentos metrologicos na B&F Gestão Metrologica, construído com o uso do Django Restful Framework, React e Docker, e com integrações de MySQL e SendGrid. Estou em constante aprendizado e sempre em busca de novos desafios no desenvolvimento web como desenvolvedora full-stack.',
+  bio: 'Olá leitor, sou Laísa, uma desenvolvedora full-stack. Tenho trabalhado como freelancer em empresas da minha região há mais de um ano, agora estou a procura de um emprego corporativo pra aprimorar minhas habilidades e tabalhar em equipe.',
   skills: {
     proficientWith: [
       'javascript',
@@ -92,7 +90,7 @@ export const info = {
   },
   hobbies: [
     {
-      label: 'escrever com ‼️‼️',
+      label: 'escrever com exclamação‼️‼️',
       emoji: '💻',
     },
     {
@@ -100,11 +98,11 @@ export const info = {
       emoji: '🐕‍🦺',
     },
     {
-      label: 'tentar ajudar animais que precisam',
-      emoji: '🐱',
+      label: 'rever amigos',
+      emoji: '🫂',
     },
     {
-      label: 'explorar novos lugares de quadriciclo com meu namorado',
+      label: 'explorar novos lugares e ter experiências inusitadas',
       emoji: '🏍️',
     },
     // Same as above, change the emojis to match / relate to your hobbies or interests.
@@ -112,6 +110,18 @@ export const info = {
   ],
   portfolio: [
     // This is where your portfolio projects will be detailed
+    {
+      title: 'Kometro',
+      live: 'https://www.kometro.com.br/',
+      source: 'https://github.com/laisario/bef-backend',
+      image: mock3,
+    },
+    {
+        title: "Hidralpress",
+        live: "https://github.com/laisario/hidralpress-backend",
+        source: "https://github.com/laisario/hidralpress-backend",
+        image: mock4
+    },
     {
       title: 'TrybeWallet',
       live: '/TrybeWallet/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
@@ -124,18 +134,6 @@ export const info = {
       source: 'https://github.com/laisario/trybetunes',
       image: mock2,
     },
-    {
-      title: 'B&F',
-      live: 'https://app.rkp.com.br/#/login',
-      source: 'https://github.com/laisario',
-      image: mock3,
-    },
-    // {
-    //     title: "Pixels Art",
-    //     live: "https://paytonpierce.dev",
-    //     source: "https://github.com/paytonjewell",
-    //     image: mock4
-    // },
     // {
     //     title: "Solar System",
     //     live: "https://paytonpierce.dev",

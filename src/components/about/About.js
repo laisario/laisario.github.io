@@ -3,10 +3,19 @@ import Style from './About.module.scss';
 import Terminal from "./Terminal";
 import {Box} from "@mui/material";
 import {info} from "../../info/Info";
+import { useTranslation } from 'react-i18next';
 
 
 export default function About() {
-    const firstName = info.firstName.toLowerCase()
+    const { t } = useTranslation();
+    const firstName = info.firstName.toLowerCase();
+
+    const hobbiesTranslations = [
+        { emoji: '💻', label: t('about.hobbiesList.coding') },
+        { emoji: '🐕‍🦺', label: t('about.hobbiesList.dogs') },
+        { emoji: '🏹', label: t('about.hobbiesList.archery') },
+        { emoji: '🏍️', label: t('about.hobbiesList.exploring') }
+    ];
 
     function aboutMeText() {
         return <>
@@ -14,7 +23,7 @@ export default function About() {
                 about{firstName} </p>
             <p><span style={{color: info.baseColor}}>about{firstName} <span
                 className={Style.green}>(main)</span> $ </span>
-                {info.bio}
+                {t('about.bio')}
             </p>
         </>;
     }
@@ -25,14 +34,10 @@ export default function About() {
             </p>
             <p><span style={{color: info.baseColor}}>skills/tools <span
                 className={Style.green}>(main)</span> $</span> ls</p>
-            <p style={{color: info.baseColor}}> Proficient With</p>
+            <p style={{color: info.baseColor}}> {t('about.skills')}</p>
             <ul className={Style.skills}>
                 {info.skills.proficientWith.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
             </ul>
-            {/* <p style={{color: info.baseColor}}> Exposed To</p>
-            <ul className={Style.skills}>
-                {info.skills.exposedTo.map((skill, index) => <li key={index}>{skill}</li>)}
-            </ul> */}
         </>;
     }
 
@@ -43,7 +48,7 @@ export default function About() {
             <p><span style={{color: info.baseColor}}>hobbies/interests <span
                 className={Style.green}>(main)</span> $</span> ls</p>
             <ul>
-                {info.hobbies.map((hobby, index) => (
+                {hobbiesTranslations.map((hobby, index) => (
                     <li key={index}><Box component={'span'} mr={'1rem'}>{hobby.emoji}</Box>{hobby.label}</li>
                 ))}
             </ul>

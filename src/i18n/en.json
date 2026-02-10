@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "portfolio": "Portfolio",
+    "resume": "Resume"
+  },
+  "home": {
+    "greeting": "Hi, I'm",
+    "position": "Full Stack Developer",
+    "miniBio": {
+      "experience": "3+ years of full stack development experience",
+      "freelance": "Available for freelance work",
+      "location": "Rio de Janeiro, Brazil",
+      "email": "laisa.rioverde@gmail.com"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "bio": "Full Stack Developer with 3+ years of experience designing, building, and operating end-to-end software systems. Strong background in JavaScript/TypeScript and Python, with hands-on experience across backend, frontend, DevOps, and system architecture. I have delivered production systems for real businesses, taking full ownership of each project—from requirements and architecture to implementation, containerization, CI/CD, and deployment. I am passionate about technology and transforming ideas into working products. I value clean architecture, automation, and reliability, and thrive in collaborative environments focused on continuous learning and practical impact.",
+    "skills": "Skills & Technologies",
+    "hobbies": "Hobbies & Interests",
+    "hobbiesList": {
+      "coding": "thinking about business ideas and starting to code (not always finished haha)",
+      "dogs": "playing with my dogs",
+      "archery": "training archery",
+      "exploring": "exploring new places"
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "projects": {
+      "kometro": {
+        "title": "Kometro",
+        "description": "Corporate management system with focus on scalability, REST APIs, async processing, Docker containerization, and CI/CD pipelines."
+      },
+      "porteiras": {
+        "title": "Porteiras Abertas",
+        "description": "AI-driven platform using RAG pipeline to guide family farmers through formalization. Built with FastAPI, React, MongoDB, and OpenAI integration."
+      },
+      "hidralpress": {
+        "title": "Hidralpress",
+        "description": "Mobile app for automating maintenance documentation with automatic image classification. Python app on Linux VM with SMB network integration."
+      },
+      "casadamata": {
+        "title": "A Casa da Mata",
+        "description": "Landing page for eco-tourism business with modern design and responsive layout."
+      },
+      "intersul": {
+        "title": "Intersul Cópias",
+        "description": "Corporate management system with focus on scalability, REST APIs, Docker containerization, and CI/CD pipelines."
+      }
+    },
+    "liveDemo": "Live Demo",
+    "sourceCode": "Source Code"
+  },
+  "resume": {
+    "title": "Resume / CV",
+    "downloadEN": "Download CV (English)",
+    "downloadPT": "Baixar CV (Português)",
+    "description": "Download my resume to learn more about my professional experience, skills, and education."
+  },
+  "footer": {
+    "madeWith": "Made with",
+    "by": "by"
+  }
+}

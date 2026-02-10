@@ -6,8 +6,17 @@ import EmojiBullet from "./EmojiBullet";
 import SocialIcon from "./SocialIcon";
 import {Box} from "@mui/material";
 import {info} from "../../info/Info";
+import { useTranslation } from 'react-i18next';
 
 export default function Home() {
+   const { t } = useTranslation();
+
+   const miniBioTranslations = [
+      { emoji: '💼', text: t('home.miniBio.experience') },
+      { emoji: '🛠️', text: t('home.miniBio.freelance') },
+      { emoji: '🌎', text: t('home.miniBio.location') },
+      { emoji: '📧', text: t('home.miniBio.email') }
+   ];
 
    return (
       <Box component={'main'} display={'flex'} flexDirection={{xs: 'column', md: 'row'}} alignItems={'center'}
@@ -16,11 +25,11 @@ export default function Home() {
               height={{xs: '35vh', md: '40vh'}}
               borderRadius={'50%'} p={'0.75rem'} mb={{xs: '1rem', sm: 0}} mr={{xs: 0, md: '2rem'}}/>
          <Box>
-            <h1>Olá, me chamo <span style={{background: info.gradient, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>{info.firstName}</span><span className={Style.hand}>🤚</span>
+            <h1>{t('home.greeting')} <span style={{background: info.gradient, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>{info.firstName}</span><span className={Style.hand}>🤚</span>
             </h1>
-            <h2>Sou {info.position}.</h2>
+            <h2>{t('home.position')}</h2>
             <Box component={'ul'} p={'0.8rem'}>
-               {info.miniBio.map((bio, index) => (
+               {miniBioTranslations.map((bio, index) => (
                   <EmojiBullet key={index} emoji={bio.emoji} text={bio.text}/>
                ))}
             </Box>

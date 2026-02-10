@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "portfolio": "Portfólio",
+    "resume": "Currículo"
+  },
+  "home": {
+    "greeting": "Oi, eu sou",
+    "position": "Desenvolvedora Full Stack",
+    "miniBio": {
+      "experience": "3+ anos de experiência em desenvolvimento full stack",
+      "freelance": "Disponível para trabalhos freelancer",
+      "location": "Rio de Janeiro, Brasil",
+      "email": "laisa.rioverde@gmail.com"
+    }
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "bio": "Desenvolvedora Full Stack com mais de 3 anos de experiência no desenvolvimento de aplicações web e mobile, atuando principalmente com JavaScript (React, Next.js, Node.js, NestJS) e Python (Django). Minha trajetória profissional tem sido fortemente orientada ao desenvolvimento de produto, criação de sistemas escaláveis e automação de processos para empresas de diferentes setores. Além do desenvolvimento full stack, possuo experiência prática com ambientes Linux, versionamento de código, pipelines de CI/CD, integração contínua, deploy e manutenção de aplicações em produção. Também tenho base em redes, arquitetura de sistemas e boas práticas de segurança, o que me permite colaborar de forma próxima com times de infraestrutura e operar aplicações de ponta a ponta. Busco oportunidades onde eu possa continuar evoluindo tecnicamente, especialmente em contextos que valorizem engenharia de software sólida, automação, confiabilidade e colaboração entre desenvolvimento e infraestrutura.",
+    "skills": "Habilidades & Tecnologias",
+    "hobbies": "Hobbies & Interesses",
+    "hobbiesList": {
+      "coding": "pensar em ideias de negócio e começar a programar (nem sempre termino haha)",
+      "dogs": "brincar e passear com meus cachorros",
+      "archery": "treinar tiro com arco",
+      "exploring": "explorar novos lugares e ter experiências inusitadas"
+    }
+  },
+  "portfolio": {
+    "title": "Portfólio",
+    "projects": {
+      "kometro": {
+        "title": "Kometro",
+        "description": "Sistema de gestão corporativa com foco em escalabilidade, APIs REST, processamento assíncrono, containerização com Docker e pipelines de CI/CD."
+      },
+      "porteiras": {
+        "title": "Porteiras Abertas",
+        "description": "Plataforma com IA usando pipeline RAG para orientar agricultores familiares na formalização. Construída com FastAPI, React, MongoDB e integração OpenAI."
+      },
+      "hidralpress": {
+        "title": "Hidralpress",
+        "description": "Aplicativo mobile para automação de documentação de manutenção com classificação automática de imagens. Aplicação Python em VM Linux com integração de rede SMB."
+      },
+      "casadamata": {
+        "title": "A Casa da Mata",
+        "description": "Landing page para negócio de ecoturismo com design moderno e layout responsivo."
+      },
+      "intersul": {
+        "title": "Intersul Cópias",
+        "description": "Sistema de gestão corporativa com foco em escalabilidade, APIs REST, containerização com Docker e pipelines de CI/CD."
+      }
+    },
+    "liveDemo": "Demo ao Vivo",
+    "sourceCode": "Código Fonte"
+  },
+  "resume": {
+    "title": "Currículo / CV",
+    "downloadEN": "Download CV (English)",
+    "downloadPT": "Baixar CV (Português)",
+    "description": "Baixe meu currículo para saber mais sobre minha experiência profissional, habilidades e formação."
+  },
+  "footer": {
+    "madeWith": "Feito com",
+    "by": "por"
+  }
+}

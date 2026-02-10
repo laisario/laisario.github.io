@@ -1,44 +1,33 @@
 import self from '../img/self.png';
-import mock1 from '../img/mock1.png';
-import mock2 from '../img/mock2.png';
+import mock1 from "../img/mock1.png";
 import mock3 from '../img/mock3.png';
 import mock4 from "../img/mock4.png";
+import mock6 from "../img/mock6.png";
+import mock7 from "../img/mock7.png";
 
-// import mock5 from "../img/mock5.png"
-
-/* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
-how to make this template work best for you! */
-
+// Gradient colors for accents throughout the site
 export let colors = ['rgb(0,255,164)', 'rgb(166,104,255)'];
-/*
-I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
-These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
-the site.
- */
-
-/*
-So let's get started! Some of the info below is pretty self-explanatory, like 'firstName' and 'bio'. I'll try to explain anything
-that might not be obvious right off the bat :) I recommend looking at the template example live using "npm start" to get an idea
-of what each of the values mean.
- */
 
 export const info = {
   firstName: 'Laísa',
   lastName: 'Rio',
-  initials: 'lr', // the example uses first and last, but feel free to use three or more if you like.
-  position: 'uma desenvolvedora FullStack',
-  selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
-  gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
+  initials: 'lr',
+  position: 'Full Stack Developer',
+  selfPortrait: self,
+  gradient: `-webkit-linear-gradient(135deg, ${colors})`,
   baseColor: colors[0],
   miniBio: [
-    // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
     {
-      emoji: '🐶',
-      text: 'Amo cachorros especialmente  meus 4',
+      emoji: '💼',
+      text: '3+ anos de experiência em desenvolvimento full stack',
+    },
+    {
+      emoji: '🛠️',
+      text: 'Disponível para trabalhos freelancer',
     },
     {
       emoji: '🌎',
-      text: 'Barra Mansa - Rio de Janeiro - Brasil',
+      text: 'Rio de Janeiro, Brazil',
     },
     {
       emoji: '📧',
@@ -46,11 +35,6 @@ export const info = {
     },
   ],
   socials: [
-    {
-      link: 'https://www.instagram.com/laisa_maral/',
-      icon: 'fa fa-instagram',
-      label: 'instagram',
-    },
     {
       link: 'https://github.com/laisario',
       icon: 'fa fa-github',
@@ -61,83 +45,85 @@ export const info = {
       icon: 'fa fa-linkedin',
       label: 'linkedin',
     },
-
-    // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
-    // Just change the links so that they lead to your social profiles.
   ],
-  bio: 'Olá leitor! Sou Laísa, desenvolvedora full-stack com mais de um ano de experiência como freelancer, atuando em projetos para empresas da minha região. Já trabalhei em sistemas de automação, landing pages, gerenciamento de calibrações e instrumentos metrológicos, sempre buscando entregar resultados eficientes. Estou em busca de uma oportunidade em um ambiente corporativo para continuar aprimorando minhas habilidades e colaborar em novos projetos revolucionários!!!',
+  bio: 'Full Stack Developer with 3+ years of experience designing, building, and operating end-to-end software systems. Strong background in JavaScript/TypeScript and Python, with hands-on experience across backend, frontend, DevOps, and system architecture. I have delivered production systems for real businesses, taking full ownership of each project—from requirements and architecture to implementation, containerization, CI/CD, and deployment. I am passionate about technology and transforming ideas into working products. I value clean architecture, automation, and reliability, and thrive in collaborative environments focused on continuous learning and practical impact.',
   skills: {
     proficientWith: [
-      'javascript',
-      'react',
-      'node.js',
-      'typescript',
-      'django',
-      'flask',
-      'pytests',
-      'jest',
-      'html5',
-      'css3',
-      'git',
-      'docker',
-      'mySQL',
-      'mongoDB',
-      'scrumban',
-      'material ui',
-      'web design responsivo',
+      'JavaScript',
+      'TypeScript',
+      'Python',
+      'React',
+      'Next.js',
+      'SvelteKit',
+      'Node.js',
+      'NestJS',
+      'Django',
+      'FastAPI',
+      'PostgreSQL',
+      'MySQL',
+      'MongoDB',
+      'Redis',
+      'Docker',
+      'CI/CD',
+      'Linux',
+      'Git',
+      'REST APIs',
+      'Tailwind CSS',
     ],
   },
   hobbies: [
     {
-      label: 'escrever com exclamação‼️‼️',
+      label: 'thinking about business ideas and starting to code (not always finished haha)',
       emoji: '💻',
     },
     {
-      label: 'brincar e passear com meus cachorros',
+      label: 'playing with my dogs',
       emoji: '🐕‍🦺',
     },
     {
-      label: 'rever amigos',
-      emoji: '🫂',
+      label: 'training archery',
+      emoji: '🏹',
     },
     {
-      label: 'explorar novos lugares e ter experiências inusitadas',
+      label: 'exploring new places',
       emoji: '🏍️',
     },
-    // Same as above, change the emojis to match / relate to your hobbies or interests.
-    // You can also remove the emojis if you'd like, I just think they look cute :P
   ],
   portfolio: [
-    // This is where your portfolio projects will be detailed
     {
       title: 'Kometro',
       live: 'https://www.kometro.com.br/',
       source: 'https://github.com/laisario/bef-backend',
       image: mock3,
+      description: 'Corporate management system with focus on scalability, REST APIs, async processing, Docker containerization, and CI/CD pipelines.',
     },
     {
-        title: "Hidralpress",
-        live: "https://github.com/laisario/hidralpress-backend",
-        source: "https://github.com/laisario/hidralpress-backend",
-        image: mock4
+      title: 'Porteiras Abertas',
+      live: 'https://porteirasabertas.netlify.app/',
+      source: 'https://github.com/laisario/devs-impacto',
+      image: mock7,
+      description: 'AI-driven platform using RAG pipeline to guide family farmers through formalization. Built with FastAPI, React, MongoDB, and OpenAI integration.',
     },
     {
-      title: 'TrybeWallet',
-      live: '/TrybeWallet/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-      source: 'https://github.com/laisario/TrybeWallet', // this should be a link to the **repository** of the project, where the code is hosted.
+      title: 'Hidralpress',
+      live: 'https://github.com/laisario/hidralpress-backend',
+      source: 'https://github.com/laisario/hidralpress-backend',
+      image: mock4,
+      description: 'Mobile app for automating maintenance documentation with automatic image classification. Python app on Linux VM with SMB network integration.',
+    },
+    {
+      title: 'A Casa da Mata',
+      live: 'https://www.acasadamata.com.br/',
+      source: 'https://github.com/laisario/acasadamata-landingpage',
+      image: mock6,
+      description: 'Landing page for eco-tourism business with modern design and responsive layout.',
+    },
+    {
+      title: 'Intersul Cópias',
+      live: 'https://www.intersulcopias.com/',
+      source: 'https://github.com/laisario/intersul',
       image: mock1,
+      description: 'Corporate management system with focus on scalability, REST APIs, Docker containerization, and CI/CD pipelines.',
     },
-    {
-      title: 'Trybetunes',
-      live: 'https://laisario.github.io/trybetunes/',
-      source: 'https://github.com/laisario/trybetunes',
-      image: mock2,
-    },
-    // {
-    //     title: "Solar System",
-    //     live: "https://paytonpierce.dev",
-    //     source: "https://github.com/paytonjewell",
-    //     image: mock5
-    // }
   ],
 };

@@ -106,8 +106,8 @@ export const info = {
     },
     {
       title: 'Hidralpress',
-      live: 'https://github.com/laisario/hidralpress-backend',
-      source: 'https://github.com/laisario/hidralpress-backend',
+      live: 'https://github.com/laisario/hidralpress',
+      source: 'https://github.com/laisario/hidralpress',
       image: mock4,
       description: 'Mobile app for automating maintenance documentation with automatic image classification. Python app on Linux VM with SMB network integration.',
     },
